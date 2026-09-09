@@ -7,7 +7,7 @@ Unix pager (with very rich functionality) designed for work with tables. Designe
 - **Latest release**: `5.8.16` (2026-02-18)
 - **Last commit**: 2026-09-06
 - **License**: BSD-2-Clause
-- **Stars**: 2730 · **Forks**: 89 · **Open issues**: 201 · **Contributors**: 32
+- **Stars**: 2731 · **Forks**: 89 · **Open issues**: 202 · **Contributors**: 32
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/pspg> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T11:24:19Z._
+_Last regenerated: 2026-09-09T05:14:50Z._
