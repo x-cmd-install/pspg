@@ -1,33 +1,11 @@
-- repo: trisquel_10_0
-  subrepo: nabia/main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 2.6.6
-  origversion: 2.6.6-1
+- repo: slackbuilds
+  srcname: system/pspg
+  visiblename: system/pspg
+  version: 5.0.5
+  origversion: null
   status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
   categories:
-    - universe/misc
-- repo: trisquel_11_0
-  subrepo: aramo/main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.5.3
-  origversion: 5.5.3-1
-  status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
-  categories:
-    - universe/misc
+    - system
 - repo: alpine_3_17
   subrepo: main
   srcname: pspg
@@ -67,170 +45,192 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: alpine_3_20
+- repo: raspbian_stable
   subrepo: main
   srcname: pspg
-  binname: pspg
-  visiblename: pspg
-  version: 5.8.6
-  origversion: 5.8.6-r0
-  status: outdated
-  summary: A unix pager optimized for psql
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_20
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.6
-  origversion: 5.8.6-r0
-  status: outdated
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_21
-  subrepo: main
-  srcname: pspg
-  binname: pspg
-  visiblename: pspg
-  version: 5.8.7
-  origversion: 5.8.7-r0
-  status: outdated
-  summary: A unix pager optimized for psql
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_21
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.7
-  origversion: 5.8.7-r0
-  status: outdated
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: main
-  srcname: pspg
-  binname: pspg
+  binnames:
+    - pspg
   visiblename: pspg
   version: 5.8.9
-  origversion: 5.8.9-r0
+  origversion: 5.8.9-1
   status: outdated
-  summary: A unix pager optimized for psql
   maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_22
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.9
-  origversion: 5.8.9-r0
-  status: outdated
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: main
-  srcname: pspg
-  binname: pspg
-  visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_23
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: pspg
-  binname: pspg
-  visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_3_24
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: pspg
-  binname: pspg
-  visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: alpine_edge
-  subrepo: main
-  srcname: pspg
-  binname: pspg-doc
-  visiblename: pspg-doc
-  version: 5.8.16
-  origversion: 5.8.16-r0
-  status: newest
-  summary: A unix pager optimized for psql (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - BSD-2-Clause
-- repo: slackbuilds
-  srcname: system/pspg
-  visiblename: system/pspg
-  version: 5.0.5
-  origversion: null
-  status: outdated
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
   categories:
-    - system
+    - misc
+- repo: alpine_3_20
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.6
+  origversion: 5.8.6-r0
+  status: outdated
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_20
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.6
+  origversion: 5.8.6-r0
+  status: outdated
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_21
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.7
+  origversion: 5.8.7-r0
+  status: outdated
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_21
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.7
+  origversion: 5.8.7-r0
+  status: outdated
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_22
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.9
+  origversion: 5.8.9-r0
+  status: outdated
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_22
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.9
+  origversion: 5.8.9-r0
+  status: outdated
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_23
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_24
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_3_24
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: alpine_edge
+  subrepo: main
+  srcname: pspg
+  binname: pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-1
+  status: newest
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - misc
+- repo: alpine_edge
+  subrepo: main
+  srcname: pspg
+  binname: pspg-doc
+  visiblename: pspg-doc
+  version: 5.8.16
+  origversion: 5.8.16-r0
+  status: newest
+  summary: A unix pager optimized for psql (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - BSD-2-Clause
 - repo: alt_p11
   srcname: pspg
   binnames:
@@ -441,19 +441,6 @@
     - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
-- repo: t2
-  srcname: pspg
-  visiblename: pspg
-  version: 5.8.16
-  origversion: null
-  status: newest
-  summary: A unix pager optimized for psql
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - BSD
-  categories:
-    - extra/base
 - repo: epel_9
   srcname: pspg
   binnames:
@@ -529,22 +516,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: pspg
-  binnames:
-    - pspg
-    - pspg-debuginfo
-    - pspg-debugsource
-  visiblename: pspg
-  version: 5.8.7
-  origversion: 5.8.7-1.fc40
-  status: outdated
-  summary: A unix pager optimized for psql
-  licenses:
-    - LicenseRef-Callaway-BSD
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: pspg
   binnames:
@@ -560,14 +531,16 @@
     - BSD
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: updates
   srcname: pspg
   binnames:
     - pspg
+    - pspg-debuginfo
+    - pspg-debugsource
   visiblename: pspg
-  version: 5.8.11
-  origversion: 5.8.11-1.fc41
+  version: 5.8.7
+  origversion: 5.8.7-1.fc40
   status: outdated
   summary: A unix pager optimized for psql
   licenses:
@@ -583,6 +556,20 @@
   version: 5.8.7
   origversion: 5.8.7-1.fc41
   status: legacy
+  summary: A unix pager optimized for psql
+  licenses:
+    - LicenseRef-Callaway-BSD
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.11
+  origversion: 5.8.11-1.fc41
+  status: outdated
   summary: A unix pager optimized for psql
   licenses:
     - LicenseRef-Callaway-BSD
@@ -1210,36 +1197,49 @@
     - myon@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
+- repo: t2
+  srcname: pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: null
+  status: newest
+  summary: A unix pager optimized for psql
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - BSD
+  categories:
+    - extra/base
+- repo: trisquel_10_0
+  subrepo: nabia/main
   srcname: pspg
   binnames:
     - pspg
   visiblename: pspg
-  version: 5.8.9
-  origversion: 5.8.9-1
+  version: 2.6.6
+  origversion: 2.6.6-1
   status: outdated
   maintainers:
     - team+postgresql@tracker.debian.org
     - mnencia@debian.org
     - myon@debian.org
   categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
   srcname: pspg
   binnames:
     - pspg
   visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-1
-  status: newest
+  version: 5.5.3
+  origversion: 5.5.3-1
+  status: outdated
   maintainers:
     - team+postgresql@tracker.debian.org
     - mnencia@debian.org
     - myon@debian.org
   categories:
-    - misc
+    - universe/misc
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: pspg
@@ -1382,4 +1382,4 @@
   status: newest
   summary: Advanced postgres pager
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
