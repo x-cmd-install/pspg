@@ -30,9 +30,9 @@ x install pspg
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/24 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (4/10) — security policy file detected
+- **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/24 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -46,7 +46,7 @@ x install pspg
 
 ## 流行度
 
-- **Star**: 2,731 · **Fork**: 90 · **开放 issue**: 202 · **贡献者**: 32
+- **Star**: 2,732 · **Fork**: 90 · **开放 issue**: 202 · **贡献者**: 32
 
 ## 累计统计
 
@@ -56,12 +56,12 @@ x install pspg
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 0 | 1 | 0 | 1 | 5 |
-| last60d | 2026-07-16 | 0 | 0 | 1 | 0 | 1 | 5 |
-| 90d | 2026-06-16 | 0 | 0 | 1 | 1 | 1 | 6 |
-| last180d | 2026-03-18 | 0 | 2 | 1 | 2 | 1 | 15 |
-| 360d | 2025-09-19 | 4 | 3 | 1 | 10 | 1 | 40 |
-| last720d | 2024-09-24 | 10 | 4 | 1 | 17 | 1 | 76 |
+| 30d | 2026-08-16 | 0 | 0 | 1 | 0 | 1 | 5 |
+| last60d | 2026-07-17 | 0 | 0 | 1 | 0 | 1 | 5 |
+| 90d | 2026-06-17 | 0 | 0 | 1 | 1 | 1 | 6 |
+| last180d | 2026-03-19 | 0 | 2 | 1 | 2 | 1 | 15 |
+| 360d | 2025-09-20 | 4 | 3 | 1 | 10 | 1 | 40 |
+| last720d | 2024-09-25 | 10 | 4 | 1 | 17 | 1 | 76 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ pspg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260914.yml` · 2026-09-14T05:30:15Z._
+_数据快照: `data/card/260915.yml` · 2026-09-15T05:29:56Z._
