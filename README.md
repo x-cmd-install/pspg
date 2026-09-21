@@ -18,7 +18,7 @@ Total: **25,617** lines of code across **47** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,648 | 2,333 | 4,939 | 22 |
+| C | 22,648 | 2,334 | 4,939 | 22 |
 | CHeader | 1,489 | 155 | 179 | 11 |
 | M4 | 1,000 | 722 | 99 | 8 |
 | RPMSpecfile | 166 | 2 | 54 | 1 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.8.16` (2026-02-18)
-- **Last commit**: 2026-09-06
+- **Last commit**: 2026-09-21
 
 ## Popularity
 
-- **Stars**: 2,732 · **Forks**: 90 · **Open issues**: 202 · **Contributors**: 32
+- **Stars**: 2,732 · **Forks**: 90 · **Open issues**: 203 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 60 · **Open PRs**: 1 · **Closed issues**: 201 · **Open issues**: 1 · **Commits**: 1365
+- **Releases**: 142 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 202 · **Open issues**: 1 · **Commits**: 1367
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 1 | 0 | 1 | 5 |
-| last60d | 2026-07-22 | 0 | 0 | 1 | 0 | 1 | 5 |
-| 90d | 2026-06-22 | 0 | 0 | 1 | 1 | 1 | 5 |
-| last180d | 2026-03-24 | 0 | 2 | 1 | 2 | 1 | 15 |
-| 360d | 2025-09-25 | 4 | 3 | 1 | 10 | 1 | 39 |
-| last720d | 2024-09-30 | 9 | 4 | 1 | 17 | 1 | 73 |
+| 30d | 2026-08-22 | 0 | 1 | 0 | 1 | 1 | 6 |
+| last60d | 2026-07-23 | 0 | 1 | 0 | 1 | 1 | 6 |
+| 90d | 2026-06-23 | 0 | 1 | 0 | 2 | 1 | 6 |
+| last180d | 2026-03-25 | 0 | 3 | 0 | 3 | 1 | 16 |
+| 360d | 2025-09-26 | 4 | 4 | 0 | 11 | 1 | 40 |
+| last720d | 2024-10-01 | 9 | 5 | 0 | 18 | 1 | 75 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:27:02Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:29:49Z._
