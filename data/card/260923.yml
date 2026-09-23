@@ -231,4 +231,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 8 are checked with a SAST tool'
 ---
-{"id":287516071,"author":{"login":"okbob","id":546675,"node_id":"MDQ6VXNlcjU0NjY3NQ==","gravatar_id":"","type":"User","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOBcb6I84RIyWn","tag_name":"5.8.16","target_commitish":"master","name":"5.8.16","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-02-18T04:49:35Z","updated_at":"2026-02-18T04:51:55Z","published_at":"2026-02-18T04:51:55Z","assets":[],"body":"- fix unclosed input files (mainly important for periodic reading in watch mode)"}
