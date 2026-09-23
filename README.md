@@ -4,7 +4,7 @@
 
 Unix pager (with very rich functionality) designed for work with tables. Designed for PostgreSQL, but MySQL is supported too. Works well with pgcli too. Can be used as CSV or TSV viewer too. It supports searching, selecting rows, columns, or block and export selected area to clipboard. 
 
-[![x-cmd/install — pspg Code Quality Monitoring Repo Card](https://repo.x-cmd.io/pspg.svg)](https://x-cmd.com/install/pspg)
+[![x-cmd/install — pspg Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/pspg.svg)](https://x-cmd.com/install/pspg)
 
 ## Install
 
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,732 · **Forks**: 90 · **Open issues**: 203 · **Contributors**: 33
+- **Stars**: 2,734 · **Forks**: 90 · **Open issues**: 203 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 1 | 0 | 1 | 1 | 6 |
-| last60d | 2026-07-24 | 0 | 1 | 0 | 1 | 1 | 6 |
-| 90d | 2026-06-24 | 0 | 1 | 0 | 2 | 1 | 6 |
-| last180d | 2026-03-26 | 0 | 3 | 0 | 3 | 1 | 16 |
-| 360d | 2025-09-27 | 4 | 4 | 0 | 11 | 1 | 40 |
-| last720d | 2024-10-02 | 9 | 5 | 0 | 18 | 1 | 75 |
+| 30d | 2026-08-24 | 0 | 1 | 0 | 1 | 1 | 6 |
+| last60d | 2026-07-25 | 0 | 1 | 0 | 1 | 1 | 6 |
+| 90d | 2026-06-25 | 0 | 1 | 0 | 2 | 1 | 6 |
+| last180d | 2026-03-27 | 0 | 3 | 0 | 3 | 1 | 16 |
+| 360d | 2025-09-28 | 4 | 4 | 0 | 11 | 1 | 40 |
+| last720d | 2024-10-03 | 9 | 5 | 0 | 18 | 1 | 75 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:20:50Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:26:20Z._
