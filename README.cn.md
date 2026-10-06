@@ -31,8 +31,8 @@ x install pspg
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 2/23 approved changesets -- score normalized to 0
 - **Security-Policy** (4/10) — security policy file detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -56,12 +56,12 @@ x install pspg
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 1 | 1 | 1 | 1 | 0 |
-| last60d | 2026-08-06 | 0 | 1 | 1 | 1 | 1 | 6 |
-| 90d | 2026-07-07 | 0 | 1 | 1 | 1 | 1 | 6 |
-| last180d | 2026-04-08 | 0 | 3 | 1 | 2 | 1 | 16 |
-| 360d | 2025-10-10 | 4 | 4 | 1 | 11 | 1 | 40 |
-| last720d | 2024-10-15 | 9 | 5 | 1 | 18 | 1 | 75 |
+| 30d | 2026-09-06 | 0 | 1 | 1 | 1 | 1 | 0 |
+| last60d | 2026-08-07 | 0 | 1 | 1 | 1 | 1 | 6 |
+| 90d | 2026-07-08 | 0 | 1 | 1 | 1 | 1 | 6 |
+| last180d | 2026-04-09 | 0 | 3 | 1 | 2 | 1 | 16 |
+| 360d | 2025-10-11 | 4 | 4 | 1 | 11 | 1 | 40 |
+| last720d | 2024-10-16 | 9 | 5 | 1 | 18 | 1 | 75 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ pspg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261005.yml` · 2026-10-05T06:01:14Z._
+_数据快照: `data/card/261006.yml` · 2026-10-06T06:41:22Z._
