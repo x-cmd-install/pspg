@@ -14,12 +14,12 @@ x install pspg
 
 ## Code insight
 
-Total: **25,617** lines of code across **47** files in the top 5 languages.
+Total: **25,690** lines of code across **47** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,648 | 2,334 | 4,939 | 22 |
-| CHeader | 1,489 | 155 | 179 | 11 |
+| C | 22,715 | 2,335 | 4,946 | 22 |
+| CHeader | 1,495 | 155 | 180 | 11 |
 | M4 | 1,000 | 722 | 99 | 8 |
 | RPMSpecfile | 166 | 2 | 54 | 1 |
 | Sh | 93 | 27 | 22 | 5 |
@@ -30,9 +30,9 @@ Overall score: **3.7 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (0/10) — Found 2/23 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Security-Policy** (4/10) — security policy file detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.8.16` (2026-02-18)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-10-14
 
 ## Popularity
 
-- **Stars**: 2,740 · **Forks**: 91 · **Open issues**: 203 · **Contributors**: 33
+- **Stars**: 2,741 · **Forks**: 91 · **Open issues**: 203 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 142 · **Merged PRs**: 61 · **Open PRs**: 1 · **Closed issues**: 202 · **Open issues**: 1 · **Commits**: 1367
+- **Releases**: 142 · **Merged PRs**: 61 · **Open PRs**: 1 · **Closed issues**: 202 · **Open issues**: 1 · **Commits**: 1369
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 0 | 1 | 0 | 1 | 0 |
-| last60d | 2026-08-15 | 0 | 1 | 1 | 1 | 1 | 6 |
-| 90d | 2026-07-16 | 0 | 1 | 1 | 1 | 1 | 6 |
-| last180d | 2026-04-17 | 0 | 3 | 1 | 2 | 1 | 16 |
-| 360d | 2025-10-19 | 4 | 4 | 1 | 11 | 1 | 40 |
-| last720d | 2024-10-24 | 9 | 5 | 1 | 18 | 1 | 75 |
+| 30d | 2026-09-15 | 0 | 0 | 1 | 0 | 1 | 1 |
+| last60d | 2026-08-16 | 0 | 1 | 1 | 1 | 1 | 7 |
+| 90d | 2026-07-17 | 0 | 1 | 1 | 1 | 1 | 7 |
+| last180d | 2026-04-18 | 0 | 3 | 1 | 2 | 1 | 17 |
+| 360d | 2025-10-20 | 4 | 4 | 1 | 11 | 1 | 41 |
+| last720d | 2024-10-25 | 9 | 5 | 1 | 18 | 1 | 77 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T05:16:30Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T04:56:44Z._
