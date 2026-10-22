@@ -14,11 +14,11 @@ x install pspg
 
 ## 代码洞察
 
-合计: **25,812** 行代码（覆盖前 5 种语言、共 **47** 个文件）。
+合计: **25,813** 行代码（覆盖前 5 种语言、共 **47** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 22,833 | 2,388 | 4,976 | 22 |
+| C | 22,834 | 2,388 | 4,976 | 22 |
 | CHeader | 1,499 | 155 | 181 | 11 |
 | M4 | 1,000 | 722 | 99 | 8 |
 | RPMSpecfile | 166 | 2 | 54 | 1 |
@@ -26,13 +26,13 @@ x install pspg
 
 ## OpenSSF Scorecard 评分
 
-总评分: **3.7 / 10**
+总评分: **4.1 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 2/23 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 2/25 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Security-Policy** (4/10) — security policy file detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -42,7 +42,7 @@ x install pspg
 ## 发布
 
 - **最新版本**: `5.8.16` (2026-02-18)
-- **最近提交**: 2026-10-21
+- **最近提交**: 2026-10-22
 
 ## 流行度
 
@@ -50,18 +50,18 @@ x install pspg
 
 ## 累计统计
 
-- **发布数**: 142 · **已合并 PR**: 61 · **开放 PR**: 1 · **已关闭 issue**: 202 · **开放 issue**: 1 · **提交数**: 1379
+- **发布数**: 142 · **已合并 PR**: 61 · **开放 PR**: 0 · **已关闭 issue**: 203 · **开放 issue**: 0 · **提交数**: 1383
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 0 | 0 | 1 | 0 | 0 | 11 |
-| last60d | 2026-08-22 | 0 | 1 | 1 | 1 | 1 | 17 |
-| 90d | 2026-07-23 | 0 | 1 | 1 | 1 | 1 | 17 |
-| last180d | 2026-04-24 | 0 | 3 | 1 | 2 | 1 | 27 |
-| 360d | 2025-10-26 | 4 | 4 | 1 | 11 | 1 | 50 |
-| last720d | 2024-10-31 | 9 | 5 | 1 | 18 | 1 | 87 |
+| 30d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 15 |
+| last60d | 2026-08-23 | 0 | 1 | 0 | 2 | 0 | 21 |
+| 90d | 2026-07-24 | 0 | 1 | 0 | 2 | 0 | 21 |
+| last180d | 2026-04-25 | 0 | 3 | 0 | 3 | 0 | 31 |
+| 360d | 2025-10-27 | 4 | 4 | 0 | 12 | 0 | 54 |
+| last720d | 2024-11-01 | 9 | 5 | 0 | 19 | 0 | 91 |
 
 ## 改进这些数据
 
@@ -72,4 +72,4 @@ pspg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261021.yml` · 2026-10-21T05:19:50Z._
+_数据快照: `data/card/261022.yml` · 2026-10-22T05:15:02Z._
