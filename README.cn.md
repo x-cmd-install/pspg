@@ -26,13 +26,13 @@ x install pspg
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.1 / 10**
+总评分: **5.1 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 2/25 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
+- **Security-Policy** (4/10) — security policy file detected
 
 ## 源代码
 
@@ -56,16 +56,16 @@ x install pspg
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 15 |
-| last60d | 2026-08-27 | 1 | 1 | 0 | 2 | 0 | 20 |
-| 90d | 2026-07-28 | 1 | 1 | 0 | 2 | 0 | 21 |
-| last180d | 2026-04-29 | 1 | 3 | 0 | 3 | 0 | 31 |
-| 360d | 2025-10-31 | 5 | 4 | 0 | 12 | 0 | 54 |
-| last720d | 2024-11-05 | 10 | 5 | 0 | 19 | 0 | 91 |
+| 30d | 2026-09-27 | 1 | 0 | 0 | 0 | 0 | 15 |
+| last60d | 2026-08-28 | 1 | 1 | 0 | 2 | 0 | 20 |
+| 90d | 2026-07-29 | 1 | 1 | 0 | 2 | 0 | 21 |
+| last180d | 2026-04-30 | 1 | 3 | 0 | 3 | 0 | 31 |
+| 360d | 2025-11-01 | 5 | 4 | 0 | 12 | 0 | 54 |
+| last720d | 2024-11-06 | 10 | 5 | 0 | 19 | 0 | 91 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/pspg) 上共有 **102** 个发行版报告此项目。**8** 个 ✅ 已是最新上游版本，**76** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/pspg) 上共有 **102** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**75** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -79,7 +79,7 @@ x install pspg
 | Nix unstable | `5.9.0` | ✅ latest |
 | Void | `5.9.0` | ✅ latest |
 | Alpine edge | `5.8.16` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.8.16` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.9.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -90,4 +90,4 @@ pspg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T05:08:28Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T05:23:19Z._
