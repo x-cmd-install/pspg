@@ -1,3 +1,24 @@
+- repo: slackbuilds
+  srcname: system/pspg
+  visiblename: system/pspg
+  version: 5.0.5
+  origversion: null
+  status: outdated
+  categories:
+    - system
+- repo: deepin_unstable
+  subrepo: main
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 1.6.3
+  origversion: 1.6.3-1
+  status: outdated
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
 - repo: alpine_3_17
   subrepo: main
   srcname: pspg
@@ -37,21 +58,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: raspbian_stable
-  subrepo: main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.8.9
-  origversion: 5.8.9-1
-  status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
-  categories:
-    - misc
 - repo: alpine_3_20
   subrepo: main
   srcname: pspg
@@ -65,6 +71,16 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
+- repo: starkos
+  subrepo: extra
+  srcname: pspg
+  visiblename: pspg
+  version: 5.9.0
+  origversion: 5.9.0-1
+  status: newest
+  summary: Advanced postgres pager
+  maintainers:
+    - starkos@disroot.org
 - repo: alpine_3_20
   subrepo: main
   srcname: pspg
@@ -195,21 +211,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: raspbian_testing
-  subrepo: main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-1
-  status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
-  categories:
-    - misc
 - repo: alpine_edge
   subrepo: main
   srcname: pspg
@@ -333,28 +334,15 @@
   binnames:
     - pspg
   visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-1
-  status: outdated
+  version: 5.9.0
+  origversion: 5.9.0-1
+  status: newest
   maintainers:
     - team+postgresql@tracker.debian.org
     - mnencia@debian.org
     - myon@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 1.6.3
-  origversion: 1.6.3-1
-  status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: pspg
@@ -391,9 +379,9 @@
   binnames:
     - pspg
   visiblename: pspg
-  version: 5.8.16
-  origversion: 5.8.16-1
-  status: outdated
+  version: 5.9.0
+  origversion: 5.9.0-1
+  status: newest
   maintainers:
     - team+postgresql@tracker.debian.org
     - mnencia@debian.org
@@ -476,22 +464,6 @@
   categories:
     - dev-db
 - repo: fedora_39
-  subrepo: release
-  srcname: pspg
-  binnames:
-    - pspg
-    - pspg-debuginfo
-    - pspg-debugsource
-  visiblename: pspg
-  version: 5.8.0
-  origversion: 5.8.0-1.fc39
-  status: legacy
-  summary: A unix pager optimized for psql
-  licenses:
-    - BSD
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: pspg
   binnames:
@@ -507,7 +479,7 @@
     - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
-- repo: fedora_40
+- repo: fedora_39
   subrepo: release
   srcname: pspg
   binnames:
@@ -515,8 +487,8 @@
     - pspg-debuginfo
     - pspg-debugsource
   visiblename: pspg
-  version: 5.8.1
-  origversion: 5.8.1-3.fc40
+  version: 5.8.0
+  origversion: 5.8.0-1.fc39
   status: legacy
   summary: A unix pager optimized for psql
   licenses:
@@ -539,18 +511,20 @@
     - LicenseRef-Callaway-BSD
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: release
   srcname: pspg
   binnames:
     - pspg
+    - pspg-debuginfo
+    - pspg-debugsource
   visiblename: pspg
-  version: 5.8.7
-  origversion: 5.8.7-1.fc41
+  version: 5.8.1
+  origversion: 5.8.1-3.fc40
   status: legacy
   summary: A unix pager optimized for psql
   licenses:
-    - LicenseRef-Callaway-BSD
+    - BSD
   categories:
     - Unspecified
 - repo: fedora_41
@@ -562,6 +536,20 @@
   version: 5.8.11
   origversion: 5.8.11-1.fc41
   status: outdated
+  summary: A unix pager optimized for psql
+  licenses:
+    - LicenseRef-Callaway-BSD
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.7
+  origversion: 5.8.7-1.fc41
+  status: legacy
   summary: A unix pager optimized for psql
   licenses:
     - LicenseRef-Callaway-BSD
@@ -596,20 +584,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.8.11
-  origversion: 5.8.11-2.fc43
-  status: legacy
-  summary: A unix pager optimized for psql
-  licenses:
-    - LicenseRef-Callaway-BSD
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: updates
   srcname: pspg
   binnames:
@@ -618,6 +592,20 @@
   version: 5.8.16
   origversion: 5.8.16-1.fc43
   status: outdated
+  summary: A unix pager optimized for psql
+  licenses:
+    - LicenseRef-Callaway-BSD
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.11
+  origversion: 5.8.11-2.fc43
+  status: legacy
   summary: A unix pager optimized for psql
   licenses:
     - LicenseRef-Callaway-BSD
@@ -1094,7 +1082,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: pspg
   binnames:
     - pspg
@@ -1109,7 +1097,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: pspg
   binnames:
     - pspg
@@ -1189,24 +1177,36 @@
     - myon@debian.org
   categories:
     - misc
-- repo: slackbuilds
-  srcname: system/pspg
-  visiblename: system/pspg
-  version: 5.0.5
-  origversion: null
-  status: outdated
-  categories:
-    - system
-- repo: starkos
-  subrepo: extra
+- repo: raspbian_stable
+  subrepo: main
   srcname: pspg
+  binnames:
+    - pspg
   visiblename: pspg
-  version: 5.9.0
-  origversion: 5.9.0-1
-  status: newest
-  summary: Advanced postgres pager
+  version: 5.8.9
+  origversion: 5.8.9-1
+  status: outdated
   maintainers:
-    - starkos@disroot.org
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-1
+  status: outdated
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - misc
 - repo: t2
   srcname: pspg
   visiblename: pspg
