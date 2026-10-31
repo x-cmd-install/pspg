@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,742 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,743 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,20 +56,20 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 1 | 0 | 0 | 0 | 1 | 15 |
-| last60d | 2026-08-31 | 1 | 1 | 0 | 2 | 1 | 20 |
-| 90d | 2026-08-01 | 1 | 1 | 0 | 2 | 1 | 21 |
-| last180d | 2026-05-03 | 1 | 3 | 0 | 3 | 1 | 31 |
-| 360d | 2025-11-04 | 5 | 4 | 0 | 12 | 1 | 54 |
-| last720d | 2024-11-09 | 10 | 5 | 0 | 19 | 1 | 91 |
+| 30d | 2026-10-01 | 1 | 0 | 0 | 0 | 1 | 15 |
+| last60d | 2026-09-01 | 1 | 1 | 0 | 2 | 1 | 20 |
+| 90d | 2026-08-02 | 1 | 1 | 0 | 2 | 1 | 21 |
+| last180d | 2026-05-04 | 1 | 3 | 0 | 3 | 1 | 31 |
+| 360d | 2025-11-05 | 5 | 4 | 0 | 12 | 1 | 54 |
+| last720d | 2024-11-10 | 10 | 5 | 0 | 19 | 1 | 91 |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **9** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **11** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `5.8.16` | ⚠️ outdated |
+| Debian unstable | `5.9.0` | ✅ latest |
 | Debian 14 | `5.8.16` | ⚠️ outdated |
 | Debian 13 | `5.8.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.8.16` | ⚠️ outdated |
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:13:16Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:58:14Z._
