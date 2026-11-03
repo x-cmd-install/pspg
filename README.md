@@ -14,12 +14,12 @@ x install pspg
 
 ## Code insight
 
-Total: **25,813** lines of code across **47** files in the top 5 languages.
+Total: **25,903** lines of code across **47** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,834 | 2,388 | 4,976 | 22 |
-| CHeader | 1,499 | 155 | 181 | 11 |
+| C | 22,923 | 2,391 | 4,994 | 22 |
+| CHeader | 1,500 | 155 | 181 | 11 |
 | M4 | 1,000 | 722 | 99 | 8 |
 | RPMSpecfile | 166 | 2 | 54 | 1 |
 | Sh | 93 | 27 | 22 | 5 |
@@ -41,45 +41,45 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `5.9.0` (2026-10-22)
-- **Last commit**: 2026-10-22
+- **Latest**: `5.9.1` (2026-11-02)
+- **Last commit**: 2026-11-02
 
 ## Popularity
 
-- **Stars**: 2,743 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,742 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 143 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 203 · **Open issues**: 1 · **Commits**: 1383
+- **Releases**: 144 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 203 · **Open issues**: 1 · **Commits**: 1388
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 0 | 0 | 0 | 1 | 15 |
-| last60d | 2026-09-03 | 1 | 1 | 0 | 2 | 1 | 16 |
-| 90d | 2026-08-04 | 1 | 1 | 0 | 2 | 1 | 21 |
-| last180d | 2026-05-06 | 1 | 3 | 0 | 3 | 1 | 31 |
-| 360d | 2025-11-07 | 5 | 4 | 0 | 12 | 1 | 54 |
-| last720d | 2024-11-12 | 10 | 5 | 0 | 19 | 1 | 91 |
+| 30d | 2026-10-04 | 2 | 0 | 0 | 0 | 1 | 20 |
+| last60d | 2026-09-04 | 2 | 1 | 0 | 2 | 1 | 21 |
+| 90d | 2026-08-05 | 2 | 1 | 0 | 2 | 1 | 26 |
+| last180d | 2026-05-07 | 2 | 3 | 0 | 3 | 1 | 36 |
+| 360d | 2025-11-08 | 6 | 4 | 0 | 12 | 1 | 59 |
+| last720d | 2024-11-13 | 11 | 5 | 0 | 19 | 1 | 96 |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **11** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
+Reported by **103** distros on [repology.org](https://repology.org/project/pspg). **6** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `5.9.0` | ✅ latest |
-| Debian 14 | `5.8.16` | ⚠️ outdated |
+| Debian unstable | `5.9.0` | 🪦 legacy |
+| Debian 14 | `5.9.0` | ⚠️ outdated |
 | Debian 13 | `5.8.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.8.16` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.8.1` | ⚠️ outdated |
-| Homebrew | `5.9.0` | ✅ latest |
+| Homebrew | `5.9.1` | ✅ latest |
 | Fedora rawhide | `5.8.16` | ⚠️ outdated |
-| Nix unstable | `5.9.0` | ✅ latest |
-| Void | `5.9.0` | ✅ latest |
+| Nix unstable | `5.9.0` | ⚠️ outdated |
+| Void | `5.9.0` | ⚠️ outdated |
 | Alpine edge | `5.8.16` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.9.0` | ✅ latest |
+| openSUSE Tumbleweed | `5.9.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T06:28:48Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:13:20Z._
