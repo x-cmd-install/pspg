@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/okbob/pspg/releases/420499849",
-  "assets_url": "https://api.github.com/repos/okbob/pspg/releases/420499849/assets",
-  "upload_url": "https://uploads.github.com/repos/okbob/pspg/releases/420499849/assets{?name,label}",
-  "html_url": "https://github.com/okbob/pspg/releases/tag/5.9.0",
-  "id": 420499849,
+  "url": "https://api.github.com/repos/okbob/pspg/releases/431808332",
+  "assets_url": "https://api.github.com/repos/okbob/pspg/releases/431808332/assets",
+  "upload_url": "https://uploads.github.com/repos/okbob/pspg/releases/431808332/assets{?name,label}",
+  "html_url": "https://github.com/okbob/pspg/releases/tag/5.9.1",
+  "id": 431808332,
   "author": {
     "login": "okbob",
     "id": 546675,
@@ -25,20 +25,20 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOBcb6I84ZEFGJ",
-  "tag_name": "5.9.0",
+  "node_id": "RE_kwDOBcb6I84ZvN9M",
+  "tag_name": "5.9.1",
   "target_commitish": "master",
-  "name": "5.9.0",
+  "name": "5.9.1",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-10-22T08:54:19Z",
-  "updated_at": "2026-10-22T08:57:53Z",
-  "published_at": "2026-10-22T08:57:53Z",
+  "created_at": "2026-11-02T18:09:37Z",
+  "updated_at": "2026-11-02T18:11:06Z",
+  "published_at": "2026-11-02T18:11:06Z",
   "assets": [
 
   ],
-  "tarball_url": "https://api.github.com/repos/okbob/pspg/tarball/5.9.0",
-  "zipball_url": "https://api.github.com/repos/okbob/pspg/zipball/5.9.0",
-  "body": "- fix some possible crashes on input data with broken encoding\r\n- possibility to return original input (without any changes) when content is less than one screen\r\n  and pager is not used.\r\n"
+  "tarball_url": "https://api.github.com/repos/okbob/pspg/tarball/5.9.1",
+  "zipball_url": "https://api.github.com/repos/okbob/pspg/zipball/5.9.1",
+  "body": "- fix possible crash on correct input data"
 }
