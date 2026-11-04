@@ -40,5 +40,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/okbob/pspg/tarball/5.9.1",
   "zipball_url": "https://api.github.com/repos/okbob/pspg/zipball/5.9.1",
-  "body": "- fix possible crash on correct input data"
+  "body": "- fix possible crash on correct input data",
+  "reactions": {
+    "url": "https://api.github.com/repos/okbob/pspg/releases/431808332/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
