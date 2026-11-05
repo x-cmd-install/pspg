@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,742 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,743 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,28 +56,28 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 2 | 0 | 0 | 0 | 1 | 20 |
-| last60d | 2026-09-05 | 2 | 1 | 0 | 2 | 1 | 21 |
-| 90d | 2026-08-06 | 2 | 1 | 0 | 2 | 1 | 26 |
-| last180d | 2026-05-08 | 2 | 3 | 0 | 3 | 1 | 36 |
-| 360d | 2025-11-09 | 6 | 4 | 0 | 12 | 1 | 59 |
-| last720d | 2024-11-14 | 11 | 5 | 0 | 19 | 1 | 96 |
+| 30d | 2026-10-06 | 2 | 0 | 0 | 0 | 1 | 20 |
+| last60d | 2026-09-06 | 2 | 1 | 0 | 2 | 1 | 21 |
+| 90d | 2026-08-07 | 2 | 1 | 0 | 2 | 1 | 26 |
+| last180d | 2026-05-09 | 2 | 3 | 0 | 3 | 1 | 36 |
+| 360d | 2025-11-10 | 6 | 4 | 0 | 12 | 1 | 59 |
+| last720d | 2024-11-15 | 11 | 5 | 0 | 19 | 1 | 96 |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **8** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **12** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `5.9.1` | ✅ latest |
-| Debian 14 | `5.9.0` | ⚠️ outdated |
+| Debian 14 | `5.9.1` | ✅ latest |
 | Debian 13 | `5.8.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.8.16` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.8.1` | ⚠️ outdated |
 | Homebrew | `5.9.1` | ✅ latest |
 | Fedora rawhide | `5.8.16` | ⚠️ outdated |
-| Nix unstable | `5.9.0` | ⚠️ outdated |
-| Void | `5.9.0` | ⚠️ outdated |
+| Nix unstable | `5.9.1` | ✅ latest |
+| Void | `5.9.1` | ✅ latest |
 | Alpine edge | `5.8.16` | ⚠️ outdated |
 | openSUSE Tumbleweed | `5.9.0` | ⚠️ outdated |
 
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:44:32Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:11:35Z._
