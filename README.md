@@ -46,26 +46,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,743 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,744 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 144 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 203 · **Open issues**: 1 · **Commits**: 1388
+- **Releases**: 144 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 204 · **Open issues**: 0 · **Commits**: 1388
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 2 | 0 | 0 | 0 | 1 | 20 |
-| last60d | 2026-09-06 | 2 | 1 | 0 | 2 | 1 | 21 |
-| 90d | 2026-08-07 | 2 | 1 | 0 | 2 | 1 | 26 |
-| last180d | 2026-05-09 | 2 | 3 | 0 | 3 | 1 | 36 |
-| 360d | 2025-11-10 | 6 | 4 | 0 | 12 | 1 | 59 |
-| last720d | 2024-11-15 | 11 | 5 | 0 | 19 | 1 | 96 |
+| 30d | 2026-10-07 | 2 | 0 | 0 | 1 | 0 | 20 |
+| last60d | 2026-09-07 | 2 | 1 | 0 | 3 | 0 | 21 |
+| 90d | 2026-08-08 | 2 | 1 | 0 | 3 | 0 | 26 |
+| last180d | 2026-05-10 | 2 | 3 | 0 | 4 | 0 | 36 |
+| 360d | 2025-11-11 | 6 | 4 | 0 | 13 | 0 | 59 |
+| last720d | 2024-11-16 | 11 | 5 | 0 | 20 | 0 | 96 |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **12** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **13** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:11:35Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:02:16Z._
