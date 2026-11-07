@@ -1,65 +1,3 @@
-- repo: nix_stable_25_05
-  srcname: pspg
-  visiblename: pspg
-  version: 5.8.10
-  origversion: null
-  status: outdated
-  summary: Postgres Pager
-  maintainers:
-    - jl@lafuente.me
-  licenses:
-    - BSD-2-Clause
-- repo: nix_stable_25_11
-  srcname: pspg
-  visiblename: pspg
-  version: 5.8.12
-  origversion: null
-  status: outdated
-  summary: Postgres Pager
-  maintainers:
-    - jl@lafuente.me
-  licenses:
-    - BSD-2-Clause
-- repo: raspbian_stable
-  subrepo: main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.8.9
-  origversion: 5.8.9-1
-  status: outdated
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: pspg
-  binnames:
-    - pspg
-  visiblename: pspg
-  version: 5.9.1
-  origversion: 5.9.1-1
-  status: newest
-  maintainers:
-    - team+postgresql@tracker.debian.org
-    - mnencia@debian.org
-    - myon@debian.org
-  categories:
-    - misc
-- repo: starkos
-  subrepo: extra
-  srcname: pspg
-  visiblename: pspg
-  version: 5.9.1
-  origversion: 5.9.1-1
-  status: newest
-  summary: Advanced postgres pager
-  maintainers:
-    - starkos@disroot.org
 - repo: alpine_3_17
   subrepo: main
   srcname: pspg
@@ -229,14 +167,6 @@
     - jakub@jirutka.cz
   licenses:
     - BSD-2-Clause
-- repo: slackbuilds
-  srcname: system/pspg
-  visiblename: system/pspg
-  version: 5.0.5
-  origversion: null
-  status: outdated
-  categories:
-    - system
 - repo: alpine_edge
   subrepo: main
   srcname: pspg
@@ -862,19 +792,6 @@
     - BSD-2
   categories:
     - dev-db
-- repo: t2
-  srcname: pspg
-  visiblename: pspg
-  version: 5.9.0
-  origversion: null
-  status: outdated
-  summary: A unix pager optimized for psql
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - BSD
-  categories:
-    - extra/base
 - repo: liguros_develop
   srcname: dev-db/pspg
   visiblename: dev-db/pspg
@@ -976,6 +893,28 @@
     - jl@lafuente.me
   licenses:
     - BSD-2-Clause
+- repo: nix_stable_25_05
+  srcname: pspg
+  visiblename: pspg
+  version: 5.8.10
+  origversion: null
+  status: outdated
+  summary: Postgres Pager
+  maintainers:
+    - jl@lafuente.me
+  licenses:
+    - BSD-2-Clause
+- repo: nix_stable_25_11
+  srcname: pspg
+  visiblename: pspg
+  version: 5.8.12
+  origversion: null
+  status: outdated
+  summary: Postgres Pager
+  maintainers:
+    - jl@lafuente.me
+  licenses:
+    - BSD-2-Clause
 - repo: nix_stable_26_05
   srcname: pspg
   visiblename: pspg
@@ -1058,17 +997,6 @@
     - BSD
   categories:
     - Unspecified
-- repo: openpkg_current
-  srcname: pspg
-  visiblename: pspg
-  version: "0.5"
-  origversion: null
-  status: outdated
-  summary: PostgreSQL CLI Pager
-  licenses:
-    - BSD
-  categories:
-    - RDBMS
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: pspg
@@ -1220,6 +1148,67 @@
     - myon@debian.org
   categories:
     - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.9
+  origversion: 5.8.9-1
+  status: outdated
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.9.1
+  origversion: 5.9.1-1
+  status: newest
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: system/pspg
+  visiblename: system/pspg
+  version: 5.0.5
+  origversion: null
+  status: outdated
+  categories:
+    - system
+- repo: starkos
+  subrepo: extra
+  srcname: pspg
+  visiblename: pspg
+  version: 5.9.1
+  origversion: 5.9.1-1
+  status: newest
+  summary: Advanced postgres pager
+  maintainers:
+    - starkos@disroot.org
+- repo: t2
+  srcname: pspg
+  visiblename: pspg
+  version: 5.9.1
+  origversion: null
+  status: newest
+  summary: A unix pager optimized for psql
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - BSD
+  categories:
+    - extra/base
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: pspg
@@ -1327,6 +1316,21 @@
     - universe/misc
 - repo: ubuntu_26_10
   subrepo: stonking/universe
+  srcname: pspg
+  binnames:
+    - pspg
+  visiblename: pspg
+  version: 5.8.16
+  origversion: 5.8.16-1
+  status: outdated
+  maintainers:
+    - team+postgresql@tracker.debian.org
+    - mnencia@debian.org
+    - myon@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: pspg
   binnames:
     - pspg
