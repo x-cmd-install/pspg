@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,743 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,744 · **Forks**: 91 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 2 | 0 | 0 | 1 | 0 | 19 |
-| last60d | 2026-09-13 | 2 | 0 | 0 | 2 | 0 | 20 |
-| 90d | 2026-08-14 | 2 | 1 | 0 | 3 | 0 | 26 |
-| last180d | 2026-05-16 | 2 | 3 | 0 | 4 | 0 | 36 |
-| 360d | 2025-11-17 | 6 | 4 | 0 | 13 | 0 | 58 |
-| last720d | 2024-11-22 | 11 | 5 | 0 | 20 | 0 | 96 |
+| 30d | 2026-10-14 | 2 | 0 | 0 | 1 | 0 | 19 |
+| last60d | 2026-09-14 | 2 | 0 | 0 | 2 | 0 | 20 |
+| 90d | 2026-08-15 | 2 | 1 | 0 | 3 | 0 | 26 |
+| last180d | 2026-05-17 | 2 | 3 | 0 | 4 | 0 | 36 |
+| 360d | 2025-11-18 | 6 | 4 | 0 | 13 | 0 | 58 |
+| last720d | 2024-11-23 | 11 | 5 | 0 | 20 | 0 | 96 |
 
 ## Distribution status
 
-Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **16** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **17** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T07:56:59Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T07:26:20Z._
