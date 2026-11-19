@@ -31,7 +31,7 @@ Overall score: **5.1 / 10**
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **Security-Policy** (4/10) — security policy file detected
 
 ## Source
@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,744 · **Forks**: 92 · **Open issues**: 204 · **Contributors**: 33
+- **Stars**: 2,745 · **Forks**: 93 · **Open issues**: 204 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 0 | 0 | 1 | 0 | 6 |
-| last60d | 2026-09-18 | 2 | 0 | 0 | 2 | 0 | 23 |
-| 90d | 2026-08-19 | 2 | 1 | 0 | 3 | 0 | 29 |
-| last180d | 2026-05-21 | 2 | 3 | 0 | 4 | 0 | 37 |
-| 360d | 2025-11-22 | 6 | 3 | 0 | 13 | 0 | 61 |
-| last720d | 2024-11-27 | 11 | 5 | 0 | 20 | 0 | 99 |
+| 30d | 2026-10-20 | 2 | 0 | 0 | 1 | 0 | 6 |
+| last60d | 2026-09-20 | 2 | 0 | 0 | 1 | 0 | 23 |
+| 90d | 2026-08-21 | 2 | 1 | 0 | 3 | 0 | 29 |
+| last180d | 2026-05-23 | 2 | 3 | 0 | 4 | 0 | 37 |
+| 360d | 2025-11-24 | 6 | 3 | 0 | 13 | 0 | 61 |
+| last720d | 2024-11-29 | 11 | 5 | 0 | 20 | 0 | 99 |
 
 ## Distribution status
 
-Reported by **103** distros on [repology.org](https://repology.org/project/pspg). **18** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **102** distros on [repology.org](https://repology.org/project/pspg). **20** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -78,7 +78,7 @@ Reported by **103** distros on [repology.org](https://repology.org/project/pspg)
 | Fedora rawhide | `5.8.16` | ⚠️ outdated |
 | Nix unstable | `5.9.1` | ✅ latest |
 | Void | `5.9.1` | ✅ latest |
-| Alpine edge | `5.9.0` | ⚠️ outdated |
+| Alpine edge | `5.9.1` | ✅ latest |
 | openSUSE Tumbleweed | `5.9.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:28:55Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:49:03Z._

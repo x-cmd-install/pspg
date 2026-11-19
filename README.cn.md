@@ -31,7 +31,7 @@ x install pspg
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Code-Review** (0/10) — Found 1/28 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **Security-Policy** (4/10) — security policy file detected
 
 ## 源代码
@@ -46,7 +46,7 @@ x install pspg
 
 ## 流行度
 
-- **Star**: 2,744 · **Fork**: 92 · **开放 issue**: 204 · **贡献者**: 33
+- **Star**: 2,745 · **Fork**: 93 · **开放 issue**: 204 · **贡献者**: 33
 
 ## 累计统计
 
@@ -56,16 +56,16 @@ x install pspg
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 2 | 0 | 0 | 1 | 0 | 6 |
-| last60d | 2026-09-18 | 2 | 0 | 0 | 2 | 0 | 23 |
-| 90d | 2026-08-19 | 2 | 1 | 0 | 3 | 0 | 29 |
-| last180d | 2026-05-21 | 2 | 3 | 0 | 4 | 0 | 37 |
-| 360d | 2025-11-22 | 6 | 3 | 0 | 13 | 0 | 61 |
-| last720d | 2024-11-27 | 11 | 5 | 0 | 20 | 0 | 99 |
+| 30d | 2026-10-20 | 2 | 0 | 0 | 1 | 0 | 6 |
+| last60d | 2026-09-20 | 2 | 0 | 0 | 1 | 0 | 23 |
+| 90d | 2026-08-21 | 2 | 1 | 0 | 3 | 0 | 29 |
+| last180d | 2026-05-23 | 2 | 3 | 0 | 4 | 0 | 37 |
+| 360d | 2025-11-24 | 6 | 3 | 0 | 13 | 0 | 61 |
+| last720d | 2024-11-29 | 11 | 5 | 0 | 20 | 0 | 99 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/pspg) 上共有 **103** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**67** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/pspg) 上共有 **102** 个发行版报告此项目。**20** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -78,7 +78,7 @@ x install pspg
 | Fedora rawhide | `5.8.16` | ⚠️ outdated |
 | Nix unstable | `5.9.1` | ✅ latest |
 | Void | `5.9.1` | ✅ latest |
-| Alpine edge | `5.9.0` | ⚠️ outdated |
+| Alpine edge | `5.9.1` | ✅ latest |
 | openSUSE Tumbleweed | `5.9.0` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -90,4 +90,4 @@ pspg 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261117.yml` · 2026-11-17T08:28:56Z._
+_数据快照: `data/card/261119.yml` · 2026-11-19T09:49:04Z._
