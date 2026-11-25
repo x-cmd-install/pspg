@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 0 | 0 | 1 | 1 | 11 |
-| last60d | 2026-09-25 | 2 | 0 | 0 | 1 | 1 | 28 |
-| 90d | 2026-08-26 | 2 | 1 | 0 | 3 | 1 | 33 |
-| last180d | 2026-05-28 | 2 | 3 | 0 | 4 | 1 | 41 |
-| 360d | 2025-11-29 | 6 | 3 | 0 | 13 | 1 | 66 |
-| last720d | 2024-12-04 | 11 | 5 | 0 | 20 | 1 | 104 |
+| 30d | 2026-10-26 | 1 | 0 | 0 | 1 | 1 | 11 |
+| last60d | 2026-09-26 | 2 | 0 | 0 | 1 | 1 | 28 |
+| 90d | 2026-08-27 | 2 | 1 | 0 | 3 | 1 | 33 |
+| last180d | 2026-05-29 | 2 | 3 | 0 | 4 | 1 | 41 |
+| 360d | 2025-11-30 | 6 | 3 | 0 | 13 | 1 | 66 |
+| last720d | 2024-12-05 | 11 | 5 | 0 | 20 | 1 | 104 |
 
 ## Distribution status
 
-Reported by **101** distros on [repology.org](https://repology.org/project/pspg). **20** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+Reported by **100** distros on [repology.org](https://repology.org/project/pspg). **20** are ✅ on the latest upstream release, **62** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -74,7 +74,7 @@ Reported by **101** distros on [repology.org](https://repology.org/project/pspg)
 | Debian 13 | `5.8.9` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.8.16` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.8.1` | ⚠️ outdated |
-| Homebrew | `5.9.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `5.8.16` | ⚠️ outdated |
 | Nix unstable | `5.9.1` | ✅ latest |
 | Void | `5.9.1` | ✅ latest |
@@ -90,4 +90,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:17:27Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:56:39Z._
