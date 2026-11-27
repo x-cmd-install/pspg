@@ -46,7 +46,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,744 · **Forks**: 93 · **Open issues**: 205 · **Contributors**: 33
+- **Stars**: 2,745 · **Forks**: 93 · **Open issues**: 205 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 0 | 0 | 1 | 1 | 11 |
-| last60d | 2026-09-27 | 2 | 0 | 0 | 1 | 1 | 28 |
-| 90d | 2026-08-28 | 2 | 1 | 0 | 3 | 1 | 33 |
-| last180d | 2026-05-30 | 2 | 3 | 0 | 4 | 1 | 41 |
-| 360d | 2025-12-01 | 6 | 3 | 0 | 13 | 1 | 66 |
-| last720d | 2024-12-06 | 11 | 5 | 0 | 20 | 1 | 104 |
+| 30d | 2026-10-28 | 1 | 0 | 0 | 1 | 1 | 11 |
+| last60d | 2026-09-28 | 2 | 0 | 0 | 1 | 1 | 28 |
+| 90d | 2026-08-29 | 2 | 1 | 0 | 3 | 1 | 33 |
+| last180d | 2026-05-31 | 2 | 3 | 0 | 4 | 1 | 41 |
+| 360d | 2025-12-02 | 6 | 3 | 0 | 13 | 1 | 66 |
+| last720d | 2024-12-07 | 11 | 5 | 0 | 20 | 1 | 104 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:09:29Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:56:07Z._
