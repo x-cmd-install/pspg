@@ -2,15 +2,15 @@ about:
   description: "Unix pager (with very rich functionality) designed for work with tables. Designed for PostgreSQL, but MySQL is supported too. Works well with pgcli too. Can be used as CSV or TSV viewer too. It supports searching, selecting rows, columns, or block and export selected area to clipboard. "
   license: BSD-2-Clause
   homepage: 
-  head: 4465fc5
+  head: 413ef80
   archived: false
   latestVersion: "5.9.1"
   latestRelease: "5.9.1"
   latestPrerelease: ""
-  collectedAt: 2026-11-27T08:55:46Z
+  collectedAt: 2026-11-28T08:16:25Z
 timeline:
   created: 2017-07-11
-  lastCommit: 2026-11-24
+  lastCommit: 2026-11-28
   lastVersion: 2026-11-02
   lastRelease: 2026-11-02
   lastPrerelease: 
@@ -23,82 +23,82 @@ popularity:
   pullRequest: 68
   issue: 205
 language:
-  C: 779953
+  C: 780461
   M4: 63702
   Roff: 33798
   Makefile: 3730
   Shell: 2998
   Meson: 1640
-totalBytes: 885821
+totalBytes: 886329
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 1
     mergedPR: 0
     openPR: 0
     closedIssue: 1
     openIssue: 1
-    commit: 11
+    commit: 17
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 2
     mergedPR: 0
     openPR: 0
     closedIssue: 1
     openIssue: 1
-    commit: 28
+    commit: 34
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 2
     mergedPR: 1
     openPR: 0
     closedIssue: 3
     openIssue: 1
-    commit: 33
+    commit: 39
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 2
     mergedPR: 3
     openPR: 0
     closedIssue: 4
     openIssue: 1
-    commit: 41
+    commit: 47
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 6
     mergedPR: 3
     openPR: 0
     closedIssue: 13
     openIssue: 1
-    commit: 66
+    commit: 72
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 11
     mergedPR: 5
     openPR: 0
     closedIssue: 20
     openIssue: 1
-    commit: 104
+    commit: 110
 total:
   release: 144
   mergedPR: 61
   openPR: 0
   closedIssue: 204
   openIssue: 1
-  commit: 1396
+  commit: 1402
 ---
 path: /home/runner/.x-repo/github.com/okbob/pspg
-collectedAt: 2026-11-27T08:55:47Z
+collectedAt: 2026-11-28T08:16:27Z
 loc:
   C:
-    code: 22928
+    code: 22937
     comments: 2392
-    blanks: 4995
+    blanks: 4998
     files: 22
   CHeader:
-    code: 1500
+    code: 1501
     comments: 155
-    blanks: 181
+    blanks: 182
     files: 11
   M4:
     code: 1020
@@ -137,8 +137,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 700
-    blanks: 237
+    comments: 703
+    blanks: 239
     files: 3
   Text:
     code: 0
@@ -146,9 +146,9 @@ loc:
     blanks: 31
     files: 24
 total:
-  code: 25928
-  comments: 8550
-  blanks: 5692
+  code: 25938
+  comments: 8553
+  blanks: 5698
   files: 78
 ---
 date: "2026-11-23"
