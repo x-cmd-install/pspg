@@ -14,12 +14,12 @@ x install pspg
 
 ## Code insight
 
-Total: **25,928** lines of code across **47** files in the top 5 languages.
+Total: **25,938** lines of code across **47** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 22,928 | 2,392 | 4,995 | 22 |
-| CHeader | 1,500 | 155 | 181 | 11 |
+| C | 22,937 | 2,392 | 4,998 | 22 |
+| CHeader | 1,501 | 155 | 182 | 11 |
 | M4 | 1,020 | 720 | 100 | 8 |
 | RPMSpecfile | 166 | 2 | 54 | 1 |
 | Sh | 93 | 27 | 22 | 5 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `5.9.1` (2026-11-02)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-28
 
 ## Popularity
 
@@ -50,18 +50,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 144 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 204 · **Open issues**: 1 · **Commits**: 1396
+- **Releases**: 144 · **Merged PRs**: 61 · **Open PRs**: 0 · **Closed issues**: 204 · **Open issues**: 1 · **Commits**: 1402
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 0 | 0 | 1 | 1 | 11 |
-| last60d | 2026-09-28 | 2 | 0 | 0 | 1 | 1 | 28 |
-| 90d | 2026-08-29 | 2 | 1 | 0 | 3 | 1 | 33 |
-| last180d | 2026-05-31 | 2 | 3 | 0 | 4 | 1 | 41 |
-| 360d | 2025-12-02 | 6 | 3 | 0 | 13 | 1 | 66 |
-| last720d | 2024-12-07 | 11 | 5 | 0 | 20 | 1 | 104 |
+| 30d | 2026-10-29 | 1 | 0 | 0 | 1 | 1 | 17 |
+| last60d | 2026-09-29 | 2 | 0 | 0 | 1 | 1 | 34 |
+| 90d | 2026-08-30 | 2 | 1 | 0 | 3 | 1 | 39 |
+| last180d | 2026-06-01 | 2 | 3 | 0 | 4 | 1 | 47 |
+| 360d | 2025-12-03 | 6 | 3 | 0 | 13 | 1 | 72 |
+| last720d | 2024-12-08 | 11 | 5 | 0 | 20 | 1 | 110 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for pspg lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:56:07Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T08:16:47Z._
